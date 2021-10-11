@@ -2,6 +2,7 @@
 
 int main()
 {
+
 	int Dato1;
 	int Dato2;
 	int Resultado;
@@ -12,4 +13,5 @@ int main()
 	scanf_s("%i", &Dato2);
 	Resultado = Dato1 + Dato2;
 	printf("El resultado de la suma de %i mas %i es %i:", Dato1, Dato2, Resultado);
+	return 0;
 }
